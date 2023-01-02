@@ -200,75 +200,157 @@
         </div>
       </section>
       <!-- Contact us-->
-      <section class="section section-lg bg-gray-1 text-center">
-        <div class="container">
-          <div class="row justify-content-md-center">
-            <div class="col-md-9 col-lg-7">
-              <h3>Get in Touch</h3>
-              <!-- RD Mailform-->
-              <form
-                class="rd-form rd-mailform"
-                data-form-output="form-output-global"
-                data-form-type="contact"
-                method="post"
-                action="bat/rd-mailform.php"
-              >
-                <div class="form-wrap">
-                  <input
-                    class="form-input"
-                    id="contact-name"
-                    type="text"
-                    name="name"
-                    data-constraints="@Required"
-                  />
-                  <label class="form-label" for="contact-name">Your Name</label>
-                </div>
-                <div class="form-wrap">
-                  <input
-                    class="form-input"
-                    id="contact-email"
-                    type="email"
-                    name="email"
-                    data-constraints="@Email @Required"
-                  />
-                  <label class="form-label" for="contact-email">E-mail</label>
-                </div>
-                <div class="form-wrap">
-                  <input
-                    class="form-input"
-                    id="contact-phone"
-                    type="text"
-                    name="phone"
-                    data-constraints="@Numeric"
-                  />
-                  <label class="form-label" for="contact-phone">Phone</label>
-                </div>
-                <div class="form-wrap">
-                  <label class="form-label" for="contact-message">
-                    Message</label
-                  >
-                  <textarea
-                    class="form-input"
-                    id="contact-message"
-                    name="message"
-                    data-constraints="@Required"
-                  ></textarea>
-                </div>
-                <div class="row justify-content-center">
-                  <div class="col-12 col-sm-7 col-lg-5">
-                    <button
-                      class="button button-block button-lg button-primary"
-                      type="submit"
-                    >
-                      Send
-                    </button>
+        <section class="vh-100" section section-lg bg-gray-1 text-center;">
+          <div class="container h-100">
+            <div class="row d-flex justify-content-center align-items-center h-100">
+              <div class="col-xl-9">
+        
+                <h1 class="text-black-70 mb-4">Become a Volunteer</h1>
+        
+                <div class="card" style="border-radius: 15px;">
+                  <div class="card-body">
+        
+                    <div class="row align-items-center pt-4 pb-3">
+                      <div class="col-md-3 ps-5">
+        
+                        <h6 class="mb-0">Nama Lengkap</h6>
+                        <p></p>
+        
+                      </div>
+                      <div class="col-md-9 pe-5">
+        
+                        <input type="text" class="form-control form-control-lg" />
+        
+                      </div>
+                    </div>
+        
+                    <hr class="mx-n3">
+
+                    <div class="row align-items-center pt-4 pb-3">
+                      <div class="col-md-3 ps-5">
+        
+                        <h6 class="mb-0">Alamat</h6>
+                        <p></p>
+        
+                      </div>
+                      <div class="col-md-9 pe-5">
+        
+                        <input type="text" class="form-control form-control-lg" />
+                        <div class="small text-muted mt-2">Khusus Batam dan Tanjung Pinang</div>
+        
+                      </div>
+                    </div>
+        
+                    <hr class="mx-n3">
+
+                    <div class="row">
+                      <div class="col-md-6 mb-4 pb-2">
+
+                        <div class="col-md-3 ps-5">
+        
+                          <h6 class="mb-0">Umur</h6>
+                          <p></p>
+          
+                        </div>
+      
+                        <div class="form-outline">
+                          <input type="number" class="form-control form-control-lg" />
+                        </div>
+      
+                      </div>
+                      <div class="col-md-6 mb-4 pb-2">
+
+                        <div class="col-md-3 ps-5">
+        
+                          <h6 class="mb-0">No HP</h6>
+                          <p></p>
+          
+                        </div>
+      
+                        <div class="form-outline">
+                          <input type="tel" id="phoneNumber" class="form-control form-control-lg" />
+                        </div>
+      
+                      </div>
+                    </div>
+
+                    <hr class="mx-n3">
+        
+                    <div class="row align-items-center py-3">
+                      <div class="col-md-3 ps-5">
+        
+                        <h6 class="mb-0">Email address</h6>
+        
+                      </div>
+                      <div class="col-md-9 pe-5">
+        
+                        <input type="email" class="form-control form-control-lg" placeholder="example@example.com" />
+        
+                      </div>
+                    </div>
+        
+                    <hr class="mx-n3">
+        
+                    <div class="row d-flex align-items-left h-100">
+                      
+                      <h6 class="col-md-3 h-100">Jenis Kelamin : </h6>
+                      <p></p>
+    
+                      <div class="form-check form-check-inline mb-0 me-4">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+                          value="option1" />
+                        <label class="form-check-label" for="femaleGender">Female</label>
+                      </div>
+    
+                      <div class="form-check form-check-inline mb-0 me-4">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+                          value="option2" />
+                        <label class="form-check-label" for="maleGender">Male</label>
+                      </div>
+    
+                      <div class="form-check form-check-inline mb-0">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender"
+                          value="option3" />
+                        <label class="form-check-label" for="otherGender">Other</label>
+                      </div>
+    
+                    </div>
+        
+                    <hr class="mx-n3">
+
+                    <div class="row d-flex align-items-left h-100">
+                      
+                      <h6 class="col-md-3 h-100">berkomitmen menjadi relawan ? </h6>
+                      <p></p>
+    
+                      <div class="form-check form-check-inline mb-0 me-4">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+                          value="option1" />
+                        <label class="form-check-label" for="yesOption">Ya</label>
+                      </div>
+    
+                      <div class="form-check form-check-inline mb-0 me-4">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+                          value="option2" />
+                        <label class="form-check-label" for="noOption">Tidak</label>
+                      </div>
+    
+                    </div>
+        
+                    <hr class="mx-n3">
+        
+                    <div class="px-3 py-4 style="border-radius: 40px;">
+                      <button type="submit" class="btn btn-primary btn-lg">Send application</button>
+                    </div>
+        
                   </div>
                 </div>
-              </form>
+        
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+        <p></p>
       
       <!-- Page Footer-->
       <footer class="section footer-minimal context-dark">
