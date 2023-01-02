@@ -4443,7 +4443,8 @@ html [class*='section-'].section-bottom-0 {
 	right: 0;
 	bottom: -2px;
 	height: 66px;
-	background-image: url("../images/decor-wave-bottom.png");
+	background-image: url("../images/");
+	/* test */
 }
 
 .section-main-bunner .main-bunner-title {
@@ -4915,7 +4916,8 @@ html [class*='section-'].section-bottom-0 {
 	right: 0;
 	bottom: calc( 100% - 2px);
 	height: 65px;
-	background-image: url("../images/decor-wave-bottom.png");
+	background-image: url("../images/");
+	/* test */
 }
 
 .bg-gray-100 {
@@ -4962,7 +4964,8 @@ html [class*='section-'].section-bottom-0 {
 	right: 0;
 	bottom: calc( 100% - 2px);
 	height: 65px;
-	background-image: url("../images/decor-gray-top.png");
+	background-image: url("../images/");
+	/* test */
 }
 
 /*
